@@ -2,6 +2,16 @@
   Main style sheet for My Personal CV Site for
   Web Dev Bootcamp course
 */
+
+/*Overriding the default margin for the body*/
 body {
-  background-color: blue;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+div {
+  background-color: #e3eff3;
+}
+h1 {
+  margin-top: 0px;
 }
