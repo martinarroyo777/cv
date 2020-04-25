@@ -4,24 +4,29 @@
 */
 
 /*Overriding the default margin for the body*/
-body {
+html, body {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
 }
 
 h1 {
-  margin-top: 0px;
+  margin: 0 auto 0 auto;
+  font-family: 'Caveat', cursive;
 }
+
 /* Top Div */
 .top-container {
   background-color: #e3eff3;
+  height: 100%;
+  display: block;
+  text-align: center;
+  padding-top: 5em;
+  position: relative;
 }
 /* Middle Div */
 .middle-container {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+  text-align: center;
 }
 /* Bottom Div */
 .bottom-container {
@@ -29,3 +34,28 @@ h1 {
   height: 200px;
   background-color: blue;
 }
+
+/*=========== Header Section ======================================== */
+.pro{
+  text-decoration: underline;
+  
+}
+.clouds {
+  position: absolute;
+}
+#top-cloud {
+  right: 12em;
+  top: 2em;
+}
+#bottom-cloud{
+  left: 12em;
+}
+/*=========== end header ============================================ */
+
+/*=========== About Me   ============================================ */
+.profile-pic{
+  border-radius: 50%; /*Make picture round*/
+  width: 10em;
+  height: 10em;
+}
+/*=========== end About Me   ======================================== */
