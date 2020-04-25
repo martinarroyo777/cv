@@ -11,10 +11,39 @@ html, body {
 }
 
 h1 {
-  margin: 0 auto 0 auto;
+  margin: 50px auto 0 auto;
   font-family: 'Caveat', cursive;
+  font-size: 5.65rem;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
+h1, h2{
+    color: #66BFBF;
+}
+h3 {
+    color: #11999E;
+}
+p {
+    color: #40514E;
+    font-weight:bold;
+}
+
+hr{
+    border: none;
+    border-color: #EAF6F6;
+    width: 2em;
+    border-style: dotted none none none;
+    border-width:.25em;
+  		margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#subtitle{
+    font-weight: normal;
+}
 /* Top Div */
 .top-container {
   background-color: #e3eff3;
@@ -23,16 +52,20 @@ h1 {
   text-align: center;
   padding-top: 5em;
   position: relative;
+  
 }
 /* Middle Div */
 .middle-container {
   text-align: center;
+  padding: 2.5em 0 2.5em 0;
+    
 }
 /* Bottom Div */
 .bottom-container {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+	text-align: center;
+  background-color: #66BFBF;
+  padding: 2.5em;
+  line-height: 2;
 }
 
 /*=========== Header Section ======================================== */
@@ -50,6 +83,10 @@ h1 {
 #bottom-cloud{
   left: 12em;
 }
+
+#mountain{
+    margin-bottom: 0;
+}
 /*=========== end header ============================================ */
 
 /*=========== About Me   ============================================ */
@@ -58,4 +95,80 @@ h1 {
   width: 10em;
   height: 10em;
 }
+
+
 /*=========== end About Me   ======================================== */
+
+
+/*=========== Skills Section ======================================== */
+
+.skill-row{
+    display: inline-block;
+    width: 50%;
+    margin-top: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+/* Images for skills Section */
+.skill {
+    width: 25%;
+}
+
+.coding{
+    float: left;
+    margin-right: 1.75rem;
+}
+.marketing{
+    float: right;
+    margin-left: 1.75rem;
+}
+/*=========== End Skills Section ====================================== */
+/*=========== Contact Section    ====================================== */
+
+/*=========== Footer Section     ====================================== */
+
+.footer-link{
+    color: #11999E;
+    margin-right: 1.5em;
+}
+
+.bottom-container p{
+    color: #EAf6F6;
+}
+
+/*=========== Button Section     ====================================== */
+.button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   background-color: #66BFBF;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
